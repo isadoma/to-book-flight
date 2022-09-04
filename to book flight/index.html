@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="airline.css">
+    <link rel="stylesheet" href="./fonts-6/css/all.css">
+</head>
+<body>
+    <div class="booking-form-box">
+        <div class="radio-button">
+            <input type="radio" class="button" name="check" checked="checked"><span>Round-trip</span>
+            <input type="radio" class="button" name="check"><span>One Way</span>
+            <input type="radio" class="button" name="check"><span>Multy-City</span>
+       
+            <div class="booking-form">
+           <label>Flying From</label>
+        <input type="text" class="form-control" placeholder="City or Airport"><br>
+        <label>Flying To</label>
+        <input type="text" class="form-control" placeholder="City or Airport">
+        
+        <div class="input-group">
+            <label>Departing</label>
+            <input type="date" class="form-control select-date">
+        </div>
+        <div class="input-group">
+            <label>Adults</label>
+            <input type="number" class="form-control" value="1">
+        </div>
+        <div class="input-group">
+            <label>Children</label>
+            <input type="number" class="form-control" value="0">
+        </div>
+        <div class="input-group">
+            <label>Travel class</label>
+            <select  class="custom-select">
+            <option value="1">Economy Class</option>
+            <option value="2">business Class</option>
+           </select>
+         </div>
+         <div class="input-group1">
+            <button type="button" class="button button-primary flight">Show Flight</button>
+
+         </div>
+         </div>
+        </div>
+    </div>
+
+</body>
+</html>
